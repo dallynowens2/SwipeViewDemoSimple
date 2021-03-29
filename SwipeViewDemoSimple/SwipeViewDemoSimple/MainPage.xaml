@@ -5,18 +5,7 @@
 
     <StackLayout>
         <SwipeView>
-            <SwipeView.RightItems>
-                <SwipeItems>
-                    <SwipeItem Text="Favorite"
-                               IconImageSource="favorite.png"
-                               BackgroundColor="LightGreen"
-                               Invoked="OnFavoriteSwipeItemInvoked" />
-                    <SwipeItem Text="Delete"
-                               IconImageSource="delete.png"
-                               BackgroundColor="LightPink"
-                               Invoked="OnDeleteSwipeItemInvoked" />
-                </SwipeItems>
-            </SwipeView.RightItems>
+            
             <Grid HeightRequest="60"
                   WidthRequest="300"
                   BackgroundColor="LightGray">
@@ -26,18 +15,6 @@
             </Grid>
         </SwipeView>
         <SwipeView>
-            <SwipeView.LeftItems>
-                <SwipeItems>
-                    <SwipeItem Text="Favorite"
-                               IconImageSource="favorite.png"
-                               BackgroundColor="LightGreen"
-                               Invoked="OnFavoriteSwipeItemInvoked" />
-                    <SwipeItem Text="Delete"
-                               IconImageSource="delete.png"
-                               BackgroundColor="LightPink"
-                               Invoked="OnDeleteSwipeItemInvoked" />
-                </SwipeItems>
-            </SwipeView.LeftItems>
             <Grid HeightRequest="60"
                   WidthRequest="300"
                   BackgroundColor="LightGray">
